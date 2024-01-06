@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="shortcut icon" href="./src/images/9.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">JOGO DA MEMÓRIA</h2>
+        <button class="btn-round-reload" onclick="window.location.reload()"><img id="restart" src="./src/images/restart.jpg" alt="restart"></button>
+        <button class="btn-round-return" onclick="window.location.href='index.html'"><img id="return" src="./src/images/return.jpg" alt="return"></button>
+        <h2 class="timer" id="timing">0</h2>
+        <div class="game"></div>
+    </div>
+    <script src="./src/scripts/engine.js"></script>
+</body>
+</html>
